@@ -55,6 +55,7 @@ width: 150px; display: flex;}
 
 .login{padding: 20px;
 padding-left: 35rem;
+
 font-size: larger;
 font-weight: bold;}
 
@@ -80,4 +81,3 @@ input{width: 400px; height: 60px;}
 
 select{width:120px; height: 62px;}
 
-.food{box-sizing: content-box; color: black;}
