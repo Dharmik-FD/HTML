@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Block</title>
+    <style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+border: 1px solid red;
+
+}
+.box{ border: 5px solid red;
+padding: 20px;
+display: block;
+display: inline;
+display: inline-block;
+}
+
+.perent{ border: 2px solid black;
+box-sizing: border-box;}
+
+
+.child{  padding: 30px;
+display: inline-block;
+background-color: chocolate;
+margin: 20px;
+align-items: center;
+text-align: center;}
+
+    </style>
+</head>
+<body>
+    before
+
+    <div>block</div>
+
+    after
+
+    <hr>
+    before
+
+    <span>inline</span>
+
+    after
+    <hr>
+
+    <div class="perent">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+
+
+    <hr>
+    <hr>
+    <br>
+    <br>
+    <div class="perent">
+
+        <div class="child">Html</div>
+        <div class="child">css</div>
+        <div class="child">javascript</div>
+        <div class="child">boostrap</div>
+        <div class="child">j quary</div>
+    </div>
+</body>
+</html>
