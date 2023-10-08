@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-clip</title>
+    <style>
+.box{  width: 640px;
+height: 400px;
+margin: 50px auto;
+color: cyan;
+border: 20px dashed red;
+padding: 40px;
+background-color: darkgreen;
+/* background-clip: border-box; */
+/* background-clip: padding-box; */
+background-clip: content-box;
+}
+
+.box p{
+    margin: 20px 0px 0px 0px;
+    
+}
+
+.box h1{
+    font-size: 55px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>this is  background-clip</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sit omnis esse. Perspiciatis, deleniti voluptates? Possimus maiores amet odio veritatis, officiis tempora! Eos atque veniam asperiores! Magnam, enim est in doloribus fuga nam accusamus, facere minus, optio rem cum numquam? Magnam perspiciatis accusamus velit illum, repudiandae atque soluta reiciendis voluptates!</p>
+    </div>
+</body>
+</html>
