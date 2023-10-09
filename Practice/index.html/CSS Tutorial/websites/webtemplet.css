@@ -59,3 +59,23 @@ text-align: center;
 flex-direction: row;
 
 }
+
+
+.logo{ background-color: #b13941;
+padding: 30px 30px;
+height: 500px;
+
+
+}
+
+.text{ text-align: center;
+background-color: #b13941;
+margin-left: 400px;
+text-align: justify;
+margin-top: -300px;
+color: #feedda;
+
+
+}
+
+
