@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{ background-color: cadetblue;}
+
+.box{  width: 90%;
+margin: 0 auto;}
+
+.row{ display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 50px;  }
+
+.col-50{
+            width: 50%;
+            position: relative;
+        }
+        img{
+            width: 100%;
+        }
+        img[class*="offer"]{
+            width: 200px;
+            position: absolute;}
+
+.offer-1{ top: -30px;
+left: 0px;}
+
+.offer-2{ top: -30px;
+left: 0px;}
+
+.text{ text-align: center;
+padding: 60px;}
+
+p{ padding: 30px;
+font-size: 20px;}
+
+.two{  width: 50%;
+height: 500px;
+border: 5px solid red;
+position: relative;
+
+}
+
+.im-1{  width: 300px;
+height: 300px;
+top: -30px; left: 0px;
+
+position: absolute;
+/* left: 100px; */
+/* top: 200px; */
+}
+
+
+.im-2{ top: -30px;
+left: 0px;
+width: 80px;
+height: 50px; 
+position: absolute;}
+    </style>
+
+
+</head>
+<body>
+    <div class="box">
+        <div class="text">
+            <h1>Diwali ki Shoping</h1>
+            <p>Great Grand festival this diwali!</p>
+        </div>
+        <div class="row">
+            <div class="col-50">
+                <img src="../Image-1/family-shoping.jpg" alt="">
+                <img src="../Image-1/offer.jpg" class="offer-1" alt="">
+            </div>
+            <div class="col-50">
+                <img src="../Image-1/family.jpg" alt="">
+                <img src="../Image-1/offer.jpg" class="offer-2" alt="">
+            </div>
+        </div>
+    </div>
+
+<br>
+<br>
+<br>
+<br><hr>
+
+    <div class="two">
+        <img src="../Image-1/Place Your Image Here (5).png" alt="" class="im-1">
+        <img src="../Image-1/offer.jpg" alt="" class="im-2">
+    </div>
+</body>
+</html>
