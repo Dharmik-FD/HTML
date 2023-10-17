@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.card{ width: 500px;
+background-color: aliceblue;
+display: flex;
+margin: 80px 20px 20px 0px;}
+
+.card img{ width: 300px;
+height: 300px;}
+
+.all-card{ display: flex;}
+
+/* midia quary min */
+
+@media (min-width:576px){
+
+    .all-card{flex-direction: column;
+        
+    align-items: center;
+gap:30px;}
+}
+
+
+/* midia quary max */
+
+
+@media (max-width:1000px){
+
+.all-card{flex-direction: row;
+align-items: center;
+
+gap:30px;}
+
+}
+    </style>
+</head>
+<body>
+    <div class="all-card">
+        <div class="card">
+            <img src="../Midia-Quary/image/coffie-3 (1).png" alt="">
+
+            <div class="text">
+                <p class="p-1">Americano 
+                </p>
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, magni accusantium dolor dolore aspernatur optio soluta veritatis dolorem explicabo totam maiores ex asperiores quos nobis?</p>
+
+                <button class="b-1">Order Now</button>
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <img src="../Midia-Quary/image/coffie-2 (2).png" alt="">
+
+            <div class="text">
+                <p class="p-1">Americano 
+                </p>
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, magni accusantium dolor dolore aspernatur optio soluta veritatis dolorem explicabo totam maiores ex asperiores quos nobis?</p>
+
+                <button class="b-1">Order Now</button>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="card">
+            <img src="../Midia-Quary/image/coffie-1 (3).png" alt="">
+
+            <div class="text">
+                <p class="p-1">Americano 
+                </p>
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, magni accusantium dolor dolore aspernatur optio soluta veritatis dolorem explicabo totam maiores ex asperiores quos nobis?</p>
+
+                <button class="b-1">Order Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
